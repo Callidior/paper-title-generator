@@ -1,0 +1,8 @@
+datasets>=1,<2
+newlinejson
+nltk
+numpy
+rouge_score
+scikit-learn
+torch
+transformers>=4.3,<5
