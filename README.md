@@ -5,6 +5,8 @@ This repository contains source code for predicting computer science paper title
 
 A demo of the inference web interface can be found at <https://paper-titles.ey.r.appspot.com/>.
 
+A pre-trained model is available on HuggingFace: [Callidior/bert2bert-base-arxiv-titlegen](https://huggingface.co/Callidior/bert2bert-base-arxiv-titlegen)
+
 Contents
 --------
 
