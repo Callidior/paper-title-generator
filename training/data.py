@@ -86,4 +86,4 @@ class ArxivAbstractTitleDataset(Seq2SeqDataset):
         with newlinejson.open(self.json_file) as f:
             for paper in f:
                 if (self.categories is None) or any(any(papercat.startswith(cat) for cat in self.categories) for papercat in paper['categories'].split()):
-                    self.samples.append((paper['title'], paper['abstract']))
+                    self.samples.append((paper['abstract'], paper['title']))

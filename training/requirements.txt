@@ -5,4 +5,4 @@ numpy
 rouge_score
 scikit-learn
 torch
-transformers>=4.3,<5
+transformers==4.3
